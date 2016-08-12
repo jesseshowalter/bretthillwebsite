@@ -4,6 +4,15 @@ header{
 	background-attachment: fixed;
 	padding-top:15px;
 	position: relative;
+	@media (max-width: $breakpoint-desktop) {
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+91&0.65+0,0+91 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 91%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 91%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 91%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+		padding:0;
+	}
 
 	h1{
 		color:white;
@@ -17,7 +26,7 @@ header{
 		position: absolute;
 		z-index: 1;
 		width:100%;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -26,7 +35,7 @@ header{
 		height:400px;
 		background:url("../images/banner_about.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -35,7 +44,7 @@ header{
 		height:400px;
 		background:url("../images/banner_resource.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -44,7 +53,7 @@ header{
 		height:400px;
 		background:url("../images/banner_construction.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -54,7 +63,7 @@ header{
 		height:400px;
 		background:url("../images/banner_contact.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -64,7 +73,7 @@ header{
 		height:400px;
 		background:url("../images/banner_furnishings.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -74,7 +83,7 @@ header{
 		height:400px;
 		background:url("../images/banner_development.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -84,7 +93,7 @@ header{
 		height:400px;
 		background:url("../images/banner_residential.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -94,7 +103,7 @@ header{
 		height:400px;
 		background:url("../images/banner_careers.jpg") no-repeat 0 0;
 		background-size: cover;
-		@include media($tablet) {
+		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
 		}
@@ -103,9 +112,9 @@ header{
 	span{
 		position: absolute;
 		top:40px;
-		  @include media($tablet) {
-				display:none;
-			}
+		@media (max-width: $breakpoint-desktop) {
+	    display:none;
+	  }
 		img{
 			width:300px;
 		}
