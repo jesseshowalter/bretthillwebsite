@@ -1,0 +1,83 @@
+.mainContent{
+	padding:0 0 40px;
+
+  img{ width:100%;}
+
+	aside.sideBar{
+		@include span-columns(4);
+		padding-top:40px;
+
+			input[type="button"] {
+				background-image: url(../images/search.svg);
+				background-repeat: no-repeat;
+				background-size: contain;
+				text-indent: -9999px;
+				background-position: center;
+				width:15%;
+			}
+
+		ul li a{
+			text-transform: uppercase;
+			line-height: 2em;
+		}
+
+		h4:first-child{
+			margin-top: 8px;
+		}
+
+		@media (max-width: $breakpoint-tablet) {
+			@include span-columns(12);
+		}
+	}
+
+	aside.bottomSidebar{
+		background:rgba(183, 246, 254, 1);
+		border-right:1px solid rgba(74, 255, 255, 1);
+		border-left:1px solid rgba(74, 255, 255, 1);
+		margin-top:-10px;
+		padding:30px;
+		min-height: 630px;
+	}
+
+	section.contentRight{
+		@include span-columns(8);
+		h2:first-child{
+			margin-top:40px;
+		}
+
+		@media (max-width: $breakpoint-tablet) {
+			@include span-columns(12);
+		}
+
+		ul{
+			margin-left:20px;
+			list-style: inside;
+		}
+	}
+	.contentRightBottom{
+		padding-top:20px;
+	}
+}
+
+.imageSeperator{
+	height:200px;
+	background:url("../images/banner_careers_2.jpg") no-repeat 0 0;
+	background-size: cover;
+	position: relative;
+	@include media($tablet) {
+		background-size: cover !important;
+		background-attachment: inherit !important;
+	}
+
+	h1{
+		color:white;
+		font-size: 2em;
+		font-weight: 400;
+		position: absolute;
+		bottom:0;
+	}
+}
+
+.biography{
+  @include outer-container();
+}

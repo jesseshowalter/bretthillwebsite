@@ -1,0 +1,113 @@
+header{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding-top:15px;
+	position: relative;
+
+	h1{
+		color:white;
+		font-size: 2em;
+		font-weight: 400;
+		position: absolute;
+		bottom:0;
+	}
+
+	&#home{
+		position: absolute;
+		z-index: 1;
+		width:100%;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+	&#about{
+		height:400px;
+		background:url("../images/banner_about.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+	&#resource{
+		height:400px;
+		background:url("../images/banner_resource.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+	&#construction{
+		height:400px;
+		background:url("../images/banner_construction.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+
+	&#contact{
+		height:400px;
+		background:url("../images/banner_contact.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+
+	&#furnishings{
+		height:400px;
+		background:url("../images/banner_furnishings.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+
+	&#development{
+		height:400px;
+		background:url("../images/banner_development.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+
+	&#residential{
+		height:400px;
+		background:url("../images/banner_residential.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+
+	&#careers{
+		height:400px;
+		background:url("../images/banner_careers.jpg") no-repeat 0 0;
+		background-size: cover;
+		@include media($tablet) {
+			background-size: cover !important;
+			background-attachment: inherit !important;
+		}
+	}
+
+	span{
+		position: absolute;
+		top:40px;
+		  @include media($tablet) {
+				display:none;
+			}
+		img{
+			width:300px;
+		}
+	}
+}

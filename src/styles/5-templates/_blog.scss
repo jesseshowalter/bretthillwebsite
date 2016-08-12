@@ -1,0 +1,50 @@
+.blogPost{
+  padding-bottom: 30px;
+  margin-bottom:40px;
+  border-bottom: 1px solid $secondary-color;
+
+  p a{text-transform: uppercase}
+
+  &:last-child{
+    border: none;
+  }
+  .imageWrap{
+    max-height:300px;
+    overflow: hidden;
+    position: relative;
+
+    img{ margin-top: -15%;}
+
+    .postType p{
+      z-index: 100;
+      position: absolute;
+      margin:0;
+      padding:5px 20px;
+      top:10px;
+      right:0;
+      color:white;
+      text-transform: uppercase;
+    }
+
+    .review p{background:rgba(154, 183, 189, 1);}
+    .news p{background:rgba(53, 51, 75, 1);}
+    .resource p{background:rgba(155, 194, 53, 1);}
+  }
+  h4{ margin-bottom: 0;}
+  time{
+    margin-bottom:10px;
+    display:block;
+    text-transform: uppercase;
+    color:#CCC;
+    // font-weight: bold;
+  }
+  p{
+    margin-top:10px;
+  }
+}
+
+.postSearch{
+  display:inline-block;
+  width:80%;
+
+}

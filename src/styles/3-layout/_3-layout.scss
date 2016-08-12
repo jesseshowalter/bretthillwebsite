@@ -1,0 +1,15 @@
+@import 'navigation';
+@import 'header';
+@import 'footer';
+// -------------------------------
+// Global Layout Styles
+// -------------------------------
+body{
+	background:#fff;
+}
+
+.wrapper{
+	@include outer-container();
+	margin: 10px auto;
+	padding:0 20px;
+}

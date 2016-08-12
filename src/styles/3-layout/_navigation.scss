@@ -1,0 +1,69 @@
+.logo{
+  background:url("../images/logo.png") no-repeat;
+  background-size: contain;
+  height:90px;
+  width:250px;
+  text-indent: -9999px;
+  margin: 0 auto;
+  display: block;
+  padding:20px 0;
+  @include media($tablet) {
+    height:70px !important;
+    width:180px !important;
+  }
+
+  @include media($tablet) {
+    height:60px;
+    width:110px;
+  }
+
+  img{
+    width:100%;
+    height:auto;
+  }
+}
+
+nav#mainNav ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  box-shadow: 0 0 8px rgba(52, 81, 78, 0.5);
+}
+
+nav#mainNav li {
+  background:rgba(255, 255, 255, 0.97);
+  list-style: none;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+nav#mainNav a {
+  display: block;
+  text-decoration: none;
+  color:$complimentry-color;
+  text-transform: uppercase;
+  padding:20px 20px;
+  margin: auto;
+  font-size: 0.8rem;
+  // line-height: 1.4em;
+  font-weight:300;
+  &.active{
+    outline:none;
+    color:white;
+    background:$primary-color !important;
+  }
+  &active:before {
+    background-color:white;
+  }
+}
+nav a:before {
+  background-color:white;
+}
+
+nav a:hover, nav a:focus {
+  outline:none;
+  color:white !important;
+  background:$primary-color;
+}
