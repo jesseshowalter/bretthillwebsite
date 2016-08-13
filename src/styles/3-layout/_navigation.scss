@@ -4,9 +4,16 @@
   height:90px;
   width:250px;
   text-indent: -9999px;
-  margin: 10px auto 0;
+  margin: 0 auto 0;
   display: block;
   padding:20px 0;
+  top:5px;
+
+  &:hover:before {
+    border:none;
+    visibility: hidden;
+    width:0px;
+  }
 
   @media (max-width: $breakpoint-desktop) {
     margin:20px;
@@ -14,6 +21,7 @@
     float:left;
     height:50px;
     width:150px;
+    top:0;
   }
 
   img{
