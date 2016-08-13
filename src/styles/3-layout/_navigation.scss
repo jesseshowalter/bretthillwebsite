@@ -4,17 +4,16 @@
   height:90px;
   width:250px;
   text-indent: -9999px;
-  margin: 0 auto;
+  margin: 10px auto 0;
   display: block;
   padding:20px 0;
-  @include media($tablet) {
-    height:70px !important;
-    width:180px !important;
-  }
 
-  @include media($tablet) {
-    height:60px;
-    width:110px;
+  @media (max-width: $breakpoint-desktop) {
+    margin:20px;
+    padding:0;
+    float:left;
+    height:50px;
+    width:150px;
   }
 
   img{
@@ -28,6 +27,9 @@ nav#mainNav ul {
   margin: 0;
   padding: 0;
   box-shadow: 0 0 8px rgba(52, 81, 78, 0.5);
+  @media (max-width: $breakpoint-desktop) {
+    display:none;
+  }
 }
 
 nav#mainNav li {

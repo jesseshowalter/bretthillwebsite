@@ -40,7 +40,7 @@ $(document).ready(function(){
       height: '100vh',
       'dots': true,
       'arrows': true,
-      'auto': 6
+      'auto': 8
     });
   });
 
@@ -60,6 +60,15 @@ $(document).ready(function(){
 
   $('.maps').click(function () {
     $('.maps iframe').css("pointer-events", "auto");
+  });
+
+
+  // --------------------------------------------
+  // mobile nav
+  // --------------------------------------------
+  $('#toggle').click(function() {
+    $(this).toggleClass('active');
+    $('#overlay').toggleClass('open');
   });
 
 

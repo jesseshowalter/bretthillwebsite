@@ -21,4 +21,18 @@
   	max-width: 500px;
   	margin-bottom: 10px;
   }
+
+}
+
+
+@media (max-width: $breakpoint-mobile) {
+  input[type="button"], input[type="text"]{
+    width:100%;
+  }
+
+  h3{ margin-top:0;}
+
+  #newsletter div{
+    margin: 20px auto;
+  }
 }

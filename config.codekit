@@ -468,6 +468,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/scripts\/app-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/scripts\/app-min.js",
+		"outputAbbreviatedPath": "\/build\/scripts\/min\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/build\/scripts\/app.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2405,6 +2416,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/src\/styles\/3-layout\/_mobile-nav.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/styles\/3-layout\/_mobile-nav.scss",
+		"outputAbbreviatedPath": "\/src\/styles\/css\/_mobile-nav.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/src\/styles\/3-layout\/_navigation.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2627,13 +2654,13 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/jquery.stellar.min.js",
+			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/modernizr.js",
 			"position": 1,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/modernizr.js",
+			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/jquery.stellar.min.js",
 			"position": 2,
 			"type": 1
 			},
@@ -2645,13 +2672,13 @@
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/wow.min.js",
+			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/slider.js",
 			"position": 4,
 			"type": 1
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/slider.js",
+			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/wow.min.js",
 			"position": 5,
 			"type": 1
 			}
