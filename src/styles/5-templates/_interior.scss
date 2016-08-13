@@ -1,11 +1,25 @@
 .mainContent{
-	padding:0 0 40px;
+	// padding:0 0 40px;
+	padding:0;
+
+	@media (max-width: $breakpoint-tablet) {
+		h1:first-child, h2:first-child, h3:first-child, h4:first-child{
+			margin-top:0;
+		}
+	}
 
   img{ width:100%;}
 
 	aside.sideBar{
 		@include span-columns(4);
 		padding-top:40px;
+
+		@media (max-width: $breakpoint-tablet) {
+			padding-top:20px;
+			padding-bottom:30px;
+			margin-bottom:30px;
+			border-bottom:1px solid $secondary-color;
+		}
 
 			input[type="button"] {
 				background-image: url(../images/search.svg);
@@ -14,6 +28,10 @@
 				text-indent: -9999px;
 				background-position: center;
 				width:15%;
+				@media (max-width: $breakpoint-mobile) {
+					margin-top:10px;
+					width:100%;
+				}
 			}
 
 		ul li a{
