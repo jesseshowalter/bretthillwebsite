@@ -5,64 +5,6 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
-.slider {
-  background: #666;
-  width: 100%;
-  height: 100vh;
-  position: relative; }
-  @media (max-width: 1000px) {
-    .slider {
-      height: 400px !important; } }
-
-.slide1, .slide2, .slide3, .slide4, .slide5 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
-.slide1 {
-  background-size: cover;
-  animation: fade 18s infinite;
-  -webkit-animation: fade 18s infinite; }
-
-.slide2 {
-  background-size: cover;
-  animation: fade2 18s infinite;
-  -webkit-animation: fade2 18s infinite; }
-
-.slide3 {
-  background-size: cover;
-  animation: fade3 18s infinite;
-  -webkit-animation: fade3 18s infinite; }
-
-@keyframes fade {
-  0% {
-    opacity: 1; }
-  33.333% {
-    opacity: 0; }
-  66.666% {
-    opacity: 0; }
-  100% {
-    opacity: 1; } }
-@keyframes fade2 {
-  0% {
-    opacity: 0; }
-  33.333% {
-    opacity: 1; }
-  66.666% {
-    opacity: 0; }
-  100% {
-    opacity: 0; } }
-@keyframes fade3 {
-  0% {
-    opacity: 0; }
-  33.333% {
-    opacity: 0; }
-  66.666% {
-    opacity: 1; }
-  100% {
-    opacity: 0; } }
 /*!
  * animate.css -http://daneden.me/animate
  * Version - 3.5.1
@@ -2277,6 +2219,85 @@ html {
   -webkit-animation-name: slideOutUp;
   animation-name: slideOutUp; }
 
+/*! http://responsiveslides.com v1.55 by @viljamis */
+html {
+  background: #1a0a01; }
+
+.slider_container {
+  position: relative; }
+  .slider_container a.callbacks_nav {
+    position: absolute;
+    top: 48%; }
+  .slider_container a.next {
+    right: 20px; }
+    @media (max-width: 400px) {
+      .slider_container a.next {
+        display: none; } }
+  .slider_container a.prev {
+    left: 20px; }
+    @media (max-width: 400px) {
+      .slider_container a.prev {
+        display: none; } }
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: transparent;
+  top: 52%;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("../images/arrowsControls.png") no-repeat left top;
+  margin-top: -45px; }
+
+.callbacks_nav:hover {
+  opacity: 1.0; }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0; }
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  max-height: 95vh; }
+  @media (max-width: 400px) {
+    .rslides {
+      height: 500px; } }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0; }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left; }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0; }
+  @media (max-width: 400px) {
+    .rslides img {
+      height: 500px;
+      width: auto; } }
+
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -2775,7 +2796,8 @@ footer#footer {
   overflow: auto;
   background: #1a0a01;
   padding: 40px 0;
-  font-weight: 300; }
+  font-weight: 300;
+  margin-top: 5px; }
   footer#footer .copyright {
     margin: 80px auto 0;
     display: table;
