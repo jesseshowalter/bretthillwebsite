@@ -1,11 +1,17 @@
 header{
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-position: 0 0;
 	background-attachment: fixed;
 	padding-top:15px;
 	position: relative;
 	padding:0;
-	
+	height:400px;
+	background-size: cover !important;
+	@media (max-width: $breakpoint-tablet) {
+		background-size: cover !important;
+		background-attachment: inherit !important;
+	}
+
 	.wrapper{
 		margin-top:0;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
@@ -110,6 +116,9 @@ header{
 			background-attachment: inherit !important;
 		}
 	}
+		&#blogPost{
+			height:600px
+		}
 
 	span{
 		position: absolute;

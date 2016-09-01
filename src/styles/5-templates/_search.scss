@@ -1,0 +1,20 @@
+section.results{
+  padding: 20px 0;
+  margin-top: 15px;
+  border-bottom: 1px solid $secondary-color;
+
+  h1{
+    font-size: 1em;
+  }
+}
+
+.sisea-results-list{
+  margin-bottom: 60px;
+  h2{
+    font-size: 1.827em;
+    margin-bottom: 0;
+  }
+  time{
+    color: #CCC;
+  }
+}
