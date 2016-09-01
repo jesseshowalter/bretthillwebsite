@@ -409,7 +409,7 @@
 		},
 	"\/build\/assets\/scripts\/app-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/assets\/scripts\/app-min.js",
 		"outputAbbreviatedPath": "\/build\/assets\/scripts\/min\/app-min-min.js",
@@ -431,7 +431,7 @@
 		},
 	"\/build\/assets\/styles\/main.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/assets\/styles\/main.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -524,11 +524,11 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/scripts\/app.js",
-		"outputAbbreviatedPath": "\/build\/assets\/scripts\/app-min.js",
+		"outputAbbreviatedPath": "\/src\/scripts\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/src\/scripts\/vendors\/jquery-2.1.4.min.js": {
 		"fileType": 64,
@@ -576,7 +576,7 @@
 		},
 	"\/src\/scripts\/vendors\/responsiveslides.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/scripts\/vendors\/responsiveslides.js",
 		"outputAbbreviatedPath": "\/src\/scripts\/vendors\/min\/responsiveslides-min.js",
@@ -2679,7 +2679,7 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/styles\/main.scss",
-		"outputAbbreviatedPath": "\/build\/assets\/styles\/main.css",
+		"outputAbbreviatedPath": "\/build\/styles\/main.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 0,
@@ -2692,50 +2692,6 @@
 	],
 "lastSavedByUser": "Jesse Showalter",
 "manualImportLinks": {
-	"\/src\/scripts\/app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/jquery-2.1.4.min.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/modernizr.js",
-			"position": 1,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/jquery.stellar.min.js",
-			"position": 2,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/remodal.min.js",
-			"position": 3,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/slider.js",
-			"position": 4,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/wow.min.js",
-			"position": 5,
-			"type": 1
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/src\/scripts\/vendors\/responsiveslides.js",
-			"position": 6,
-			"type": 1
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
