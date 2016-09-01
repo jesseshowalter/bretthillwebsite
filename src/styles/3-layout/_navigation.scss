@@ -1,13 +1,13 @@
 .logo{
   background:url("../images/logo.png") no-repeat;
   background-size: contain;
-  height:90px;
+  height:110px;
   width:250px;
   text-indent: -9999px;
   margin: 0 auto 0;
   display: block;
   padding:20px 0;
-  top:5px;
+  top:15px;
 
   &:hover:before {
     border:none;
@@ -59,11 +59,11 @@ nav#mainNav a {
   font-size: 0.8rem;
   // line-height: 1.4em;
   font-weight:300;
-  &.active{
-    outline:none;
-    color:white;
-    background:$primary-color !important;
-  }
+  // &.active{
+  //   outline:none;
+  //   color:white;
+  //   background:$primary-color !important;
+  // }
   &active:before {
     background-color:white;
   }
@@ -76,4 +76,14 @@ nav a:hover, nav a:focus {
   outline:none;
   color:white !important;
   background:$primary-color;
+}
+
+nav#mainNav li.active{
+  outline:none;
+  color:white !important;
+  background:$primary-color !important;
+
+  a{
+    color:white;
+  }
 }

@@ -21,7 +21,7 @@
 			border-bottom:1px solid $secondary-color;
 		}
 
-			input[type="button"] {
+			input[type="button"], input[type="submit"] {
 				background-image: url(../images/search.svg);
 				background-repeat: no-repeat;
 				background-size: contain;
@@ -36,7 +36,7 @@
 
 		ul li a{
 			text-transform: uppercase;
-			line-height: 2em;
+			line-height: 2em !important;
 		}
 
 		h4:first-child{

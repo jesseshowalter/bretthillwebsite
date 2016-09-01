@@ -51,14 +51,14 @@ input[type="text"], textarea {
 	color: rgba(113, 113, 113, 1);
 	text-transform: uppercase;
 }
-input[type="button"] {
+input[type="button"], input[type="submit"]  {
 	border:none;
 	background: rgba(77, 216, 255, 1);
 	padding:10px;
 	border: 1px solid darken(rgba(77, 216, 255, 1), 10%);
 	text-transform: uppercase;
 }
-input[type="button"]:hover {
+input[type="button"]:hover , input[type="submit"]:hover {
 	background: darken(rgba(77, 216, 255, 1), 20%);
 }
 

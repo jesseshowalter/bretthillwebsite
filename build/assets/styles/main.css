@@ -2485,7 +2485,7 @@ blockquote {
   color: #c69c6c;
   font-weight: 100;
   font-style: italic;
-  font-size: 1.7em;
+  font-size: 1em;
   position: relative;
   line-height: 1.3em; }
   blockquote:before {
@@ -2560,14 +2560,14 @@ input[type="text"], textarea {
   color: #717171;
   text-transform: uppercase; }
 
-input[type="button"] {
+input[type="button"], input[type="submit"] {
   border: none;
   background: #4dd8ff;
   padding: 10px;
   border: 1px solid #1acdff;
   text-transform: uppercase; }
 
-input[type="button"]:hover {
+input[type="button"]:hover, input[type="submit"]:hover {
   background: #00b4e6; }
 
 input[type="text"]:focus,
@@ -2591,13 +2591,13 @@ a.btn {
 .logo {
   background: url("../images/logo.png") no-repeat;
   background-size: contain;
-  height: 90px;
+  height: 110px;
   width: 250px;
   text-indent: -9999px;
   margin: 0 auto 0;
   display: block;
   padding: 20px 0;
-  top: 5px; }
+  top: 15px; }
   .logo:hover:before {
     border: none;
     visibility: hidden;
@@ -2640,10 +2640,6 @@ nav#mainNav a {
   margin: auto;
   font-size: 0.8rem;
   font-weight: 300; }
-  nav#mainNav a.active {
-    outline: none;
-    color: white;
-    background: #331203 !important; }
   nav#mainNav aactive:before {
     background-color: white; }
 
@@ -2655,13 +2651,26 @@ nav a:hover, nav a:focus {
   color: white !important;
   background: #331203; }
 
+nav#mainNav li.active {
+  outline: none;
+  color: white !important;
+  background: #331203 !important; }
+  nav#mainNav li.active a {
+    color: white; }
+
 header {
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: 0 0;
   background-attachment: fixed;
   padding-top: 15px;
   position: relative;
-  padding: 0; }
+  padding: 0;
+  height: 400px;
+  background-size: cover !important; }
+  @media (max-width: 768px) {
+    header {
+      background-size: cover !important;
+      background-attachment: inherit !important; } }
   header .wrapper {
     margin-top: 0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
@@ -2751,6 +2760,8 @@ header {
       header#careers {
         background-size: cover !important;
         background-attachment: inherit !important; } }
+  header#blogPost {
+    height: 600px; }
   header span {
     position: absolute;
     top: 40px; }
@@ -3005,7 +3016,7 @@ body {
         padding-bottom: 30px;
         margin-bottom: 30px;
         border-bottom: 1px solid #c69c6c; } }
-    .mainContent aside.sideBar input[type="button"] {
+    .mainContent aside.sideBar input[type="button"], .mainContent aside.sideBar input[type="submit"] {
       background-image: url(../images/search.svg);
       background-repeat: no-repeat;
       background-size: contain;
@@ -3013,12 +3024,12 @@ body {
       background-position: center;
       width: 15%; }
       @media (max-width: 400px) {
-        .mainContent aside.sideBar input[type="button"] {
+        .mainContent aside.sideBar input[type="button"], .mainContent aside.sideBar input[type="submit"] {
           margin-top: 10px;
           width: 100%; } }
     .mainContent aside.sideBar ul li a {
       text-transform: uppercase;
-      line-height: 2em; }
+      line-height: 2em !important; }
     .mainContent aside.sideBar h4:first-child {
       margin-top: 8px; }
     @media (max-width: 768px) {
@@ -3252,3 +3263,18 @@ iframe {
   background: #eeeeee;
   display: inline-block;
   width: 80%; }
+
+section.results {
+  padding: 20px 0;
+  margin-top: 15px;
+  border-bottom: 1px solid #c69c6c; }
+  section.results h1 {
+    font-size: 1em; }
+
+.sisea-results-list {
+  margin-bottom: 60px; }
+  .sisea-results-list h2 {
+    font-size: 1.827em;
+    margin-bottom: 0; }
+  .sisea-results-list time {
+    color: #CCC; }
