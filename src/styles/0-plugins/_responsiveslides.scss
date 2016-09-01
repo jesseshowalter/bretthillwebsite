@@ -1,0 +1,94 @@
+/*! http://responsiveslides.com v1.55 by @viljamis */
+
+html{
+  background:#1a0a01;
+}
+
+.slider_container{
+  position: relative;
+
+  a.callbacks_nav{
+    position: absolute;
+    top:48%;
+  }
+  a.next{
+    right:20px;
+    @media (max-width: $breakpoint-mobile) {
+      display:none;
+    }
+  }
+  a.prev{
+    left:20px;
+    @media (max-width: $breakpoint-mobile) {
+      display:none;
+    }
+  }
+
+}
+
+.callbacks_nav {
+  position: absolute;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  top: 52%;
+  // left: 0;
+  opacity: 0.7;
+  z-index: 3;
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  height: 61px;
+  width: 38px;
+  background: transparent url("../images/arrowsControls.png") no-repeat left top;
+  margin-top: -45px;
+  }
+  .callbacks_nav:hover {
+  opacity: 1.0;
+  }
+
+.callbacks_nav.next {
+  left: auto;
+  background-position: right top;
+  right: 0;
+  }
+
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  z-index: 0;
+  max-height: 95vh;
+    @media (max-width: $breakpoint-mobile) {
+      height:500px;
+    }
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+    @media (max-width: $breakpoint-mobile) {
+      height: 500px;
+      width:auto;
+    }
+  }
