@@ -2278,27 +2278,12 @@ html {
   left: 0;
   top: 0; }
   .rslides li div.liveText {
-    background: rgba(0, 0, 0, 0.6);
+    background: red !important;
     position: absolute;
-    width: 35%;
-    min-width: 300px;
-    height: auto;
+    width: 100%;
     display: block;
-    top: 50%;
-    right: 0;
-    padding: 15px;
-    color: white; }
-    .rslides li div.liveText h2, .rslides li div.liveText h3, .rslides li div.liveText p {
-      margin: 0;
-      color: white; }
-    .rslides li div.liveText h2 {
-      font-size: 2rem;
-      font-weight: 100; }
-    .rslides li div.liveText h3 {
-      font-size: 1.5rem;
-      font-weight: 100; }
-    .rslides li div.liveText p {
-      font-style: italic; }
+    top: 0;
+    left: 0; }
 
 .rslides li:first-child {
   position: relative;

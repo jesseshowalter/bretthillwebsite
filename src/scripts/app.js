@@ -1,3 +1,11 @@
+// @codekit-prepend "vendors/jquery-2.1.4.min.js";
+// @codekit-prepend "vendors/jquery.stellar.min.js";
+// @codekit-prepend "vendors/modernizr.js";
+// @codekit-prepend "vendors/remodal.min.js";
+// @codekit-prepend "vendors/responsiveslides.js";
+// @codekit-prepend "vendors/slider.js";
+// @codekit-prepend "vendors/wow.min.js";
+
 $(document).ready(function(){
 
   // Initiate the stellar js plugin
