@@ -374,6 +374,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/assets\/images\/footer_bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25756,
+		"inputAbbreviatedPath": "\/build\/assets\/images\/footer_bg.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/images\/footer_bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/assets\/images\/fpo_image.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
