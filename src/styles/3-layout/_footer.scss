@@ -4,15 +4,21 @@ footer#footer{
   padding:40px 0;
   font-weight: 300;
   margin-top:5px;
+  text-transform: uppercase;
 
   .copyright{
     margin:80px auto 0;
     display:table;
-    color:rgba(248, 204, 169, 1);
+    color:$secondary-color;
     font-size:0.9em;
+    font-weight: 100;
     @media (max-width: $breakpoint-tablet) {
       margin-left:20px;
       margin-top:40px;
+    }
+    a:link, a:visited{
+      color: white;
+      font-weight: 100;
     }
   }
 
@@ -21,6 +27,8 @@ footer#footer{
     color:white;
     display:inline-block;
     font-size: 1em;
+    margin-bottom: 20px;
+
     @media (max-width: $breakpoint-tablet) {
       margin-top:0;
       margin-bottom:20px;
@@ -28,9 +36,21 @@ footer#footer{
   }
 }
 
+#footer-mast{
+  width:20%;
+  float:left;
+
+  p{ color: white; }
+  a:link, a:visited{ color: #21bdfc;}
+}
+
 #footer-links{
   float: right;
-  width:80%;
+  width:70%;
+
+  a:link, a:visited{
+    color: white;
+  }
 
   @media (max-width: $breakpoint-tablet) {
     width: 100%;
@@ -40,6 +60,10 @@ footer#footer{
     font-size: 0.9em;
     font-weight: 300;
   }
+  h4{
+    margin-bottom: 20px;
+    margin-top:0;
+  }
   a:before{ display:none;}
 
   ul{
@@ -47,8 +71,5 @@ footer#footer{
       @media (max-width: $breakpoint-tablet) {
         @include span-columns(12);
       }
-    h4{
-      color: white;
-    }
   }
 }
