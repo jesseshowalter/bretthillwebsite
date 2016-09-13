@@ -671,15 +671,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/src\/styles\/0-plugins\/_responsiveslides.scss": {
+	"\/src\/styles\/0-plugins\/_responsiveSlides.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/styles\/0-plugins\/_responsiveslides.scss",
-		"outputAbbreviatedPath": "\/src\/styles\/css\/_responsiveslides.css",
+		"inputAbbreviatedPath": "\/src\/styles\/0-plugins\/_responsiveSlides.scss",
+		"outputAbbreviatedPath": "\/src\/styles\/css\/_responsiveSlides.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

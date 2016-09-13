@@ -1,13 +1,12 @@
 .logo{
   background:url("../images/logo.png") no-repeat;
   background-size: contain;
-  height:110px;
-  width:250px;
+  height:100px;
+  width:300px;
   text-indent: -9999px;
   margin: 0 auto 0;
   display: block;
-  padding:20px 0;
-  top:15px;
+  padding:0;
 
   &:hover:before {
     border:none;
