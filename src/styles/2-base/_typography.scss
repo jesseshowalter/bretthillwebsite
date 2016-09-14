@@ -37,22 +37,22 @@ blockquote{
   color:$secondary-color;
   font-weight: 100;
   font-style: italic;
-  // font-size: 1.7em;
   font-size: 1em;
   position: relative;
   line-height: 1.3em;
-  &:before{
-    content:' " ';
-    left: -10px;
-    position: absolute;
-  }
-  &:after{
-    content:' " ';
-  }
+  // &:before{
+  //   content:' " ';
+  //   left: -10px;
+  //   position: absolute;
+  // }
+  // &:after{
+  //   content:' " ';
+  // }
 }
 cite{
   color:$secondary-color;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 0.8em;
   text-transform: uppercase;
   margin-top:10px;
   display: block;

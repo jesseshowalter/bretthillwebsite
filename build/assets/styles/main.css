@@ -2284,7 +2284,7 @@ html {
     min-width: 300px;
     height: auto;
     display: block;
-    bottom: 25%;
+    bottom: 30%;
     right: 0;
     padding: 30px 20px;
     color: white; }
@@ -2527,16 +2527,11 @@ blockquote {
   font-size: 1em;
   position: relative;
   line-height: 1.3em; }
-  blockquote:before {
-    content: ' " ';
-    left: -10px;
-    position: absolute; }
-  blockquote:after {
-    content: ' " '; }
 
 cite {
   color: #c69c6c;
-  font-weight: 500;
+  font-weight: 300;
+  font-size: 0.8em;
   text-transform: uppercase;
   margin-top: 10px;
   display: block; }
@@ -2811,13 +2806,15 @@ header {
 
 footer#footer {
   overflow: auto;
-  background: #1a0a01;
   background: url("../images/footer_bg.jpg") repeat 0 0;
   background-size: contain;
   padding: 40px 0;
   font-weight: 300;
   margin-top: 5px;
   text-transform: uppercase; }
+  @media (max-width: 768px) {
+    footer#footer {
+      background: #0c0500; } }
   footer#footer .copyright {
     margin: 80px auto 0;
     display: table;
@@ -3211,13 +3208,19 @@ body {
   .constructionSection p a {
     text-transform: uppercase; }
   .constructionSection blockquote {
-    font-size: 1em; }
+    font-size: 1.2em;
+    color: #777;
+    margin: 20px 0 0; }
+  .constructionSection cite {
+    margin: 0 0 20px; }
   .constructionSection .imageWrap {
-    margin-top: 40px; }
+    margin: 10px 0; }
+    .constructionSection .imageWrap img {
+      width: 100%; }
   .constructionSection:last-child {
     border: none; }
   .constructionSection .imageWrap {
-    height: 280px;
+    height: 320px;
     overflow: hidden;
     position: relative; }
     .constructionSection .imageWrap .postType p {
@@ -3237,6 +3240,9 @@ body {
       background: #9bc235; }
   .constructionSection h4 {
     margin-bottom: 0; }
+  .constructionSection h5 {
+    color: #c69c6c;
+    text-transform: uppercase; }
   .constructionSection time {
     margin-bottom: 10px;
     display: block;

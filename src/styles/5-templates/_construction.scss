@@ -12,20 +12,28 @@
   p a{text-transform: uppercase}
 
   blockquote{
-    font-size: 1em;
+    font-size: 1.2em;
+    color: #777;
+    margin:20px 0 0;
+  }
+  cite{
+    margin:0 0 20px;
   }
 
-  .imageWrap{ margin-top:40px;}
+  .imageWrap{
+    margin:10px 0;
+    img{
+      width: 100%;
+    }
+  }
 
   &:last-child{
     border: none;
   }
   .imageWrap{
-    height:280px;
+    height:320px;
     overflow: hidden;
     position: relative;
-
-
 
     .postType p{
       z-index: 100;
@@ -42,13 +50,14 @@
     .news p{background:rgba(53, 51, 75, 1);}
     .resource p{background:rgba(155, 194, 53, 1);}
   }
+
   h4{ margin-bottom: 0;}
+  h5{ color: $secondary-color; text-transform: uppercase;}
   time{
     margin-bottom:10px;
     display:block;
     text-transform: uppercase;
     color:#CCC;
-    // font-weight: bold;
   }
   p{
     margin-top:10px;
