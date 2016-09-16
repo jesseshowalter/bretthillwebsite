@@ -3154,6 +3154,9 @@ body {
     content: "";
     display: table; }
 
+.aboutContent blockquote {
+  color: #331203; }
+
 .blogPost {
   padding-bottom: 30px;
   margin-bottom: 40px;
@@ -3167,7 +3170,7 @@ body {
     overflow: hidden;
     position: relative; }
     .blogPost .imageWrap img {
-      margin-top: -15%; }
+      margin: 0; }
     .blogPost .imageWrap .postType p {
       z-index: 100;
       position: absolute;

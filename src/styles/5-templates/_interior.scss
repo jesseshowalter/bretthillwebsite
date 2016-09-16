@@ -99,3 +99,5 @@
 .biography{
   @include outer-container();
 }
+
+.aboutContent blockquote{ color: $primary-color}
