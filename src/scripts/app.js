@@ -5,6 +5,7 @@
 // @codekit-prepend "vendors/responsiveslides.js";
 // @codekit-prepend "vendors/slider.js";
 // @codekit-prepend "vendors/wow.min.js";
+// @codekit-prepend "vendors/featherlight.min.js";
 
 $(document).ready(function(){
 
