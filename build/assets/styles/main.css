@@ -3155,6 +3155,9 @@ body {
     padding-top: 40px; }
     .mainContent aside.sideBar:last-child {
       margin-right: 0; }
+    .mainContent aside.sideBar img {
+      margin-top: 13px;
+      border-radius: 4px; }
     @media (max-width: 768px) {
       .mainContent aside.sideBar {
         padding-top: 20px;
@@ -3242,6 +3245,18 @@ body {
 
 .aboutContent blockquote {
   color: #331203; }
+
+.devProject {
+  padding-bottom: 40px;
+  border-bottom: 1px solid #c69c6c; }
+  .devProject h4 {
+    margin: 0;
+    font-size: 1rem; }
+  .devProject cite {
+    margin-top: 0; }
+
+.imageWrap {
+  padding-top: 40px; }
 
 .blogPost {
   padding-bottom: 30px;
@@ -3369,8 +3384,6 @@ iframe {
   float: left; }
 
 .furnishingsSection {
-  padding-bottom: 30px;
-  margin-bottom: 40px;
   overflow: auto; }
   .furnishingsSection p a {
     text-transform: uppercase; }
