@@ -86,5 +86,9 @@ $(document).ready(function(){
     $('#overlay').toggleClass('open');
   });
 
+// add featherlight attribute to all images
+// var dataImg = $("img").data("featherlight");
+// $('img').attr('data-featherlight', dataImg );
+
 
 });
