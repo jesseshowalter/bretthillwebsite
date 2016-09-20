@@ -381,7 +381,7 @@
 		"outputAbbreviatedPath": "\/build\/assets\/uploads\/BLT 09-2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/assets\/uploads\/BPTW2016.jpg": {
 		"fileType": 16384,
@@ -548,6 +548,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/build\/assets\/uploads\/JABSOM 5 of 38.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 68894,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/JABSOM 5 of 38.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/JABSOM 5 of 38.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/assets\/uploads\/PH B Kitchen.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -613,6 +624,39 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 1
+		},
+	"\/build\/assets\/uploads\/TurtleBay-9245.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74318,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/TurtleBay-9245.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/TurtleBay-9245.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/TurtleBay-9334.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88528,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/TurtleBay-9334.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/TurtleBay-9334.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/TurtleBay-9369.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65801,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/TurtleBay-9369.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/TurtleBay-9369.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
 		},
 	"\/build\/careers.html": {
 		"fileType": 8192,
@@ -2771,22 +2815,6 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/styles\/5-templates\/_contact.scss",
 		"outputAbbreviatedPath": "\/src\/styles\/css\/_contact.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
-	"\/src\/styles\/5-templates\/_development.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 10,
-		"fileType": 4,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/styles\/5-templates\/_development.scss",
-		"outputAbbreviatedPath": "\/src\/styles\/css\/_development.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

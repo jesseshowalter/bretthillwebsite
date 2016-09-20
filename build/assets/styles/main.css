@@ -3258,6 +3258,9 @@ body {
 .imageWrap {
   padding-top: 40px; }
 
+.developmentSection .imageWrap {
+  padding-top: 40px; }
+
 .blogPost {
   padding-bottom: 30px;
   margin-bottom: 40px;
@@ -3271,7 +3274,7 @@ body {
     overflow: hidden;
     position: relative; }
     .blogPost .imageWrap img {
-      margin: 0; }
+      margin: -50px 0 0; }
     .blogPost .imageWrap .postType p {
       z-index: 100;
       position: absolute;
@@ -3318,7 +3321,8 @@ body {
   .constructionSection cite {
     margin: 0 0 20px; }
   .constructionSection .imageWrap {
-    margin: 10px 0; }
+    margin: 10px 0;
+    padding-top: 0 !important; }
     .constructionSection .imageWrap img {
       width: 100%; }
   .constructionSection:last-child {
