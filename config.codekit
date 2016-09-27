@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19127",
+"creatorBuild": "19137",
 "files": {
 	"\/build\/about.html": {
 		"fileType": 8192,
@@ -108,72 +108,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
-	"\/build\/assets\/uploads\/_01.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11016,
-		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_01.jpg",
-		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/build\/assets\/uploads\/_02.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 39651,
-		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_02.jpg",
-		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_02.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/build\/assets\/uploads\/_03.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 42044,
-		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_03.jpg",
-		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_03.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/build\/assets\/uploads\/_04.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6885,
-		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_04.jpg",
-		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_04.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/build\/assets\/uploads\/_05.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 19858,
-		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_05.jpg",
-		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_05.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/build\/assets\/uploads\/_06.jpg": {
-		"fileType": 16384,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 47432,
-		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_06.jpg",
-		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_06.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
 	"\/build\/assets\/uploads\/banner_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -183,7 +117,7 @@
 		"outputAbbreviatedPath": "\/build\/assets\/uploads\/banner_1.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/assets\/uploads\/banner_2.jpg": {
 		"fileType": 16384,
@@ -194,7 +128,7 @@
 		"outputAbbreviatedPath": "\/build\/assets\/uploads\/banner_2.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/assets\/uploads\/banner_3.jpg": {
 		"fileType": 16384,
@@ -205,7 +139,7 @@
 		"outputAbbreviatedPath": "\/build\/assets\/uploads\/banner_3.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/assets\/uploads\/banner_4.jpg": {
 		"fileType": 16384,
@@ -216,7 +150,7 @@
 		"outputAbbreviatedPath": "\/build\/assets\/uploads\/banner_4.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/assets\/uploads\/banner_5.jpg": {
 		"fileType": 16384,
@@ -227,7 +161,7 @@
 		"outputAbbreviatedPath": "\/build\/assets\/uploads\/banner_5.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/build\/assets\/uploads\/banner_about.jpg": {
 		"fileType": 16384,

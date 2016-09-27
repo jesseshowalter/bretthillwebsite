@@ -18,6 +18,14 @@
     margin:1%;
     float:left;
 
+    @media (max-width: $breakpoint-tablet) {
+      width: 100%;
+      max-height: none;
+      float: none;
+      display: block;
+      padding: 0;
+    }
+
     .postType p{
       z-index: 100;
       position: absolute;
@@ -35,15 +43,67 @@
   }
   .imageWrapSmall{
     max-height:450px;
+    @media (max-width: $breakpoint-tablet) {
+      max-height: none;
+    }
   }
   .imageInnerWrap{
     height:150px;
     overflow: hidden;
     margin-bottom: 15px;
+    @media (max-width: $breakpoint-tablet) {
+      height:auto;
+    }
   }
 
   .imageWrapLarge{
-    max-height:450px;
+    max-height:440px;
+    @media (max-width: $breakpoint-tablet) {
+      max-height: none;
+    }
+
+    img{
+      // height: 100%;
+      width: 100%;
+    }
+  }
+  .imageTall{
+    height:440px;
+    @media (max-width: $breakpoint-tablet) {
+      height: auto;
+    }
+  }
+  .imageShort{
+    height:150px;
+    @media (max-width: $breakpoint-tablet) {
+      height: auto;
+    }
+    img{
+      width:100%;
+      @media (max-width: $breakpoint-tablet) {
+
+      }
+    }
+  }
+  .imageMid{
+    height:235px;
+    @media (max-width: $breakpoint-tablet) {
+      height: auto;
+    }
+    img{
+      height:100%;
+      @media (max-width: $breakpoint-tablet) {
+        height: auto;
+      }
+    }
+  }
+
+  .imageTall img{
+    height: 100%;
+    width: auto;
+      @media (max-width: $breakpoint-tablet) {
+        height: 100%;
+      }
   }
 
 
