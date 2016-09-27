@@ -108,6 +108,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/build\/assets\/uploads\/_01.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11016,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_01.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/_02.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14480,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_02.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/_03.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_03.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/_04.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_04.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/_05.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_05.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/_06.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/_06.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/_06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/assets\/uploads\/banner_1.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -559,6 +625,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 1
 		},
+	"\/build\/assets\/uploads\/riggs1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 664620,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/riggs1.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/riggs1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/riggs2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 659760,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/riggs2.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/riggs2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/assets\/uploads\/TurtleBay-9245.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -717,6 +805,39 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/src\/scripts\/vendors\/lg-fullscreen.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/scripts\/vendors\/lg-fullscreen.js",
+		"outputAbbreviatedPath": "\/src\/scripts\/vendors\/min\/lg-fullscreen-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/scripts\/vendors\/lg-thumbnail.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/scripts\/vendors\/lg-thumbnail.js",
+		"outputAbbreviatedPath": "\/src\/scripts\/vendors\/min\/lg-thumbnail-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/src\/scripts\/vendors\/lightgallery.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/scripts\/vendors\/lightgallery.js",
+		"outputAbbreviatedPath": "\/src\/scripts\/vendors\/min\/lightgallery-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/scripts\/vendors\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -829,6 +950,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/styles\/0-plugins\/_grid-settings.scss",
 		"outputAbbreviatedPath": "\/src\/styles\/css\/_grid-settings.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/src\/styles\/0-plugins\/_lightgallery.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/styles\/0-plugins\/_lightgallery.scss",
+		"outputAbbreviatedPath": "\/src\/styles\/css\/_lightgallery.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

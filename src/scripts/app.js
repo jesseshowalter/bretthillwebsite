@@ -6,6 +6,9 @@
 // @codekit-prepend "vendors/slider.js";
 // @codekit-prepend "vendors/wow.min.js";
 // @codekit-prepend "vendors/featherlight.min.js";
+// @codekit-prepend "vendors/lightgallery.js";
+
+// @codekit-prepend "vendors/lg-thumbnail.js";
 
 $(document).ready(function(){
 
@@ -89,6 +92,10 @@ $(document).ready(function(){
 // add featherlight attribute to all images
 // var dataImg = $("img").data("featherlight");
 // $('img').attr('data-featherlight', dataImg );
+
+$('.aniimated-thumbnials').lightGallery({
+    thumbnail:true
+});
 
 
 });

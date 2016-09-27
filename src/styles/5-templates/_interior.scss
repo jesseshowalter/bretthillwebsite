@@ -12,7 +12,9 @@
 
 	aside.sideBar{
 		@include span-columns(4);
-		padding-top:40px;
+		padding-top:26px;
+
+		h4{ font-size:1rem;}
 
 		img{ margin-top:13px; border-radius:4px;}
 

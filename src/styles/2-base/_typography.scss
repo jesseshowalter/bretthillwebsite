@@ -8,6 +8,8 @@ body {
   font-weight: 300;
   line-height: 1.45;
   color: #333;
+ //  -webkit-font-smoothing: antialiased;
+ // -moz-osx-font-smoothing: grayscale;
 }
 
 p {margin-bottom: 1.3em;}
@@ -34,7 +36,7 @@ h4 {font-size: 1.414em;}
 small, .font_small {font-size: 0.707em;}
 
 blockquote{
-  color:$secondary-color;
+  // color:$secondary-color;
   font-weight: 100;
   font-style: italic;
   font-size: 1em;

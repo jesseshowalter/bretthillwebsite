@@ -69,5 +69,8 @@
   background:rgba(238, 238, 238, 1);
   display:inline-block;
   width:80%;
+}
 
+div.aniimated-thumbnials a:nth-child(n+2){
+  display: none !important;
 }
