@@ -71,6 +71,7 @@
   width:80%;
 }
 
+div.aniimated-thumbnials a:hover{ opacity:0.9;}
 div.aniimated-thumbnials a:nth-child(n+2){
-  display: none !important;
+  display: none;
 }

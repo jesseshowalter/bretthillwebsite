@@ -383,6 +383,39 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/assets\/uploads\/BLT_01c.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 149515,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/BLT_01c.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/BLT_01c.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/BLT_02b.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 166067,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/BLT_02b.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/BLT_02b.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/build\/assets\/uploads\/BLT_09-2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 186890,
+		"inputAbbreviatedPath": "\/build\/assets\/uploads\/BLT_09-2.jpg",
+		"outputAbbreviatedPath": "\/build\/assets\/uploads\/BLT_09-2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/assets\/uploads\/BPTW2016.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
