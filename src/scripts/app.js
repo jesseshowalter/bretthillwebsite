@@ -89,13 +89,30 @@ $(document).ready(function(){
     $('#overlay').toggleClass('open');
   });
 
-// add featherlight attribute to all images
-// var dataImg = $("img").data("featherlight");
-// $('img').attr('data-featherlight', dataImg );
+  // add featherlight attribute to all images
+  // var dataImg = $("img").data("featherlight");
+  // $('img').attr('data-featherlight', dataImg );
 
-$('.aniimated-thumbnials').lightGallery({
-    thumbnail:true
-});
+  $('.aniimated-thumbnials').lightGallery({
+      thumbnail:true
+  });
 
+  $(document).ready(function() {
+  var stickyNavTop = $('#mainNav').offset().top;
+
+  var stickyNav = function(){
+  var scrollTop = $(window).scrollTop();
+
+  if (scrollTop > stickyNavTop) {
+      $('#mainNav').addClass('sticky');
+  } else {
+      $('#mainNav').removeClass('sticky');
+  }
+  };
+  stickyNav();
+    $(window).scroll(function() {
+      stickyNav();
+    });
+  });
 
 });

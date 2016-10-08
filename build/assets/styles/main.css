@@ -3689,6 +3689,15 @@ nav#mainNav li.active {
   nav#mainNav li.active a {
     color: white; }
 
+.sticky {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  border-top: 0;
+  z-index: 1000000 !important; }
+
 header {
   background-repeat: no-repeat;
   background-position: 0 0;
