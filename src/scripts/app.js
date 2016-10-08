@@ -47,20 +47,20 @@ $(document).ready(function(){
   // --------------------------------------------
   // homepage slider
   // --------------------------------------------
-
-  $("#slider4").responsiveSlides({
-    auto: false,
-    pager: false,
-    nav: true,
-    speed: 500,
-    namespace: "callbacks",
-    before: function () {
-      $('.events').append("<li>before event fired.</li>");
-    },
-    after: function () {
-      $('.events').append("<li>after event fired.</li>");
-    }
-  });
+  //
+  // $("#slider4").responsiveSlides({
+  //   auto: true,
+  //   pager: false,
+  //   nav: true,
+  //   speed: 500,
+  //   namespace: "callbacks",
+  //   before: function () {
+  //     $('.events').append("<li>before event fired.</li>");
+  //   },
+  //   after: function () {
+  //     $('.events').append("<li>after event fired.</li>");
+  //   }
+  // });
 
   // --------------------------------------------
   // wow animations
@@ -97,6 +97,9 @@ $(document).ready(function(){
       thumbnail:true
   });
 
+  // --------------------------------------------
+  //  sticky nav
+  // --------------------------------------------
   $(document).ready(function() {
   var stickyNavTop = $('#mainNav').offset().top;
 
