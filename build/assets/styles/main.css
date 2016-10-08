@@ -3703,8 +3703,8 @@ nav#mainNav li.active {
   text-align: center;
   text-decoration: none;
   position: fixed !important;
-  bottom: 75px;
-  left: 40px;
+  bottom: 30px;
+  left: 30px;
   display: none;
   background: #c69c6c;
   opacity: 0.4;
@@ -3807,8 +3807,9 @@ header {
         background-attachment: inherit !important; } }
   header#residential {
     height: 400px;
-    background: url("../../uploads/banner_residential.jpg") no-repeat 0 0;
-    background-size: cover; }
+    background: url("../../uploads/PH B Kitchen.jpg") no-repeat 0 0;
+    background-size: cover;
+    background-position: center !important; }
     @media (max-width: 768px) {
       header#residential {
         background-size: cover !important;
@@ -4040,6 +4041,10 @@ footer#footer {
   100% {
     opacity: 1;
     left: 0; } }
+.contentCenter {
+  max-width: 700px;
+  margin: 0 auto; }
+
 body {
   background: #fff; }
 

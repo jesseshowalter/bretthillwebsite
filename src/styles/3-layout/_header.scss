@@ -99,8 +99,9 @@ header{
 
 	&#residential{
 		height:400px;
-		background:url("../../uploads/banner_residential.jpg") no-repeat 0 0;
+		background:url("../../uploads/PH B Kitchen.jpg") no-repeat 0 0;
 		background-size: cover;
+		background-position: center !important;
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
