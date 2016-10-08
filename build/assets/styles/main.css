@@ -2262,7 +2262,7 @@ html {
   position: relative;
   list-style: none;
   overflow: hidden;
-  height: 100%;
+  heightonesIWasWorkingOn: 100%;
   padding: 0;
   margin: 0;
   z-index: 0; }
@@ -3729,7 +3729,7 @@ header {
         background-attachment: inherit !important; } }
   header#about {
     height: 400px;
-    background: url("../images/banner_about.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_about.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#about {
@@ -3737,7 +3737,7 @@ header {
         background-attachment: inherit !important; } }
   header#resource {
     height: 400px;
-    background: url("../images/banner_resource.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_resource.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#resource {
@@ -3745,7 +3745,7 @@ header {
         background-attachment: inherit !important; } }
   header#construction {
     height: 400px;
-    background: url("../images/banner_construction.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_construction.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#construction {
@@ -3753,7 +3753,7 @@ header {
         background-attachment: inherit !important; } }
   header#contact {
     height: 400px;
-    background: url("../images/banner_contact.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_contact.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#contact {
@@ -3761,7 +3761,7 @@ header {
         background-attachment: inherit !important; } }
   header#furnishings {
     height: 400px;
-    background: url("../images/banner_furnishings.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_furnishings.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#furnishings {
@@ -3769,7 +3769,7 @@ header {
         background-attachment: inherit !important; } }
   header#development {
     height: 400px;
-    background: url("../images/banner_development.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_development.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#development {
@@ -3777,7 +3777,7 @@ header {
         background-attachment: inherit !important; } }
   header#residential {
     height: 400px;
-    background: url("../images/banner_residential.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_residential.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#residential {
@@ -3785,7 +3785,7 @@ header {
         background-attachment: inherit !important; } }
   header#careers {
     height: 400px;
-    background: url("../images/banner_careers.jpg") no-repeat 0 0;
+    background: url("../../uploads/banner_careers.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#careers {
@@ -4137,7 +4137,7 @@ body {
 
 .imageSeperator {
   height: 200px;
-  background: url("../images/banner_careers_2.jpg") no-repeat 0 0;
+  background: url("../../uploads/banner_careers_2.jpg") no-repeat 0 0;
   background-size: cover;
   position: relative; }
   @media screen and (max-width: 768px) {
