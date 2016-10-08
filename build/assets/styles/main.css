@@ -2262,11 +2262,10 @@ html {
   position: relative;
   list-style: none;
   overflow: hidden;
-  width: 100%;
+  height: 100%;
   padding: 0;
   margin: 0;
-  z-index: 0;
-  max-height: 95vh; }
+  z-index: 0; }
   @media (max-width: 400px) {
     .rslides {
       height: 500px; } }
@@ -3882,6 +3881,9 @@ footer#footer {
         #footer-links ul:last-child {
           margin-right: 0; } }
 
+.footer-wrap {
+  max-width: 95% !important; }
+
 .button_container {
   display: none;
   position: absolute;
@@ -4301,6 +4303,9 @@ div.aniimated-thumbnials a:hover {
 
 div.aniimated-thumbnials a:nth-child(n+2) {
   display: none; }
+
+.aniimated-thumbnials {
+  margin-top: 50px; }
 
 iframe {
   width: 100%;
