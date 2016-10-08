@@ -77,7 +77,7 @@
 		},
 	"\/build\/assets\/scripts\/app-min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/assets\/scripts\/app-min.js",
 		"outputAbbreviatedPath": "\/build\/assets\/scripts\/min\/app-min-min.js",
@@ -980,11 +980,11 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/scripts\/app.js",
-		"outputAbbreviatedPath": "\/build\/assets\/scripts\/app-min.js",
+		"outputAbbreviatedPath": "\/src\/scripts\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
-		"syntaxCheckerStyle": 0
+		"syntaxCheckerStyle": 1
 		},
 	"\/src\/scripts\/vendors\/featherlight.min.js": {
 		"fileType": 64,
