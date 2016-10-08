@@ -3698,6 +3698,27 @@ nav#mainNav li.active {
   border-top: 0;
   z-index: 1000000 !important; }
 
+.scrollToTop {
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  position: fixed !important;
+  bottom: 75px;
+  left: 40px;
+  display: none;
+  background: #c69c6c;
+  opacity: 0.4;
+  background-image: url("../images/arrowUp.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  text-indent: -9999px;
+  width: 40px;
+  height: 40px; }
+
+.scrollToTop:hover {
+  text-decoration: none;
+  opacity: 1; }
+
 header {
   background-repeat: no-repeat;
   background-position: 0 0;

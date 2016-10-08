@@ -101,4 +101,37 @@ $(document).ready(function(){
     });
   });
 
+
+  // --------------------------------------------
+  // Rotating Slider on Home Page
+  // --------------------------------------------
+  $(function() {
+    $("#slider4").responsiveSlides({
+      auto: true,
+      speed: 500,
+      timeout: 6500
+    });
+  });
+
+
+
+  // --------------------------------------------
+  //  Back To Top
+  // --------------------------------------------
+  //Check to see if the window is top if not then display button
+	$(window).scroll(function(){
+		if ($(this).scrollTop() > 400) {
+			$('.scrollToTop').fadeIn();
+		} else {
+			$('.scrollToTop').fadeOut();
+		}
+	});
+
+	//Click event to scroll to top
+	$('.scrollToTop').click(function(){
+		$('html, body').animate({scrollTop : 0},800);
+		return false;
+	});
+
+
 });
