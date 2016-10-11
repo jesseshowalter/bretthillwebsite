@@ -456,6 +456,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/build\/uploads\/bell.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 88900,
+		"inputAbbreviatedPath": "\/build\/uploads\/bell.jpg",
+		"outputAbbreviatedPath": "\/build\/uploads\/bell.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/build\/uploads\/bio_brett.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

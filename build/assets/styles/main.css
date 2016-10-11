@@ -3526,6 +3526,14 @@ blockquote {
   position: relative;
   line-height: 1.3em; }
 
+blockquote {
+  font-size: 1.2em;
+  color: #777;
+  margin: 20px 0 0;
+  background: rgba(242, 242, 242, 0.5);
+  padding: 30px;
+  border-left: 8px solid #c69c6c; }
+
 cite {
   color: #c69c6c;
   font-weight: 300;
@@ -3696,7 +3704,7 @@ nav#mainNav li.active {
   top: 0;
   z-index: 100;
   border-top: 0;
-  z-index: 1000000 !important; }
+  z-index: 100; }
 
 .scrollToTop {
   padding: 10px;
@@ -3731,7 +3739,8 @@ header {
   @media (max-width: 768px) {
     header {
       background-size: cover !important;
-      background-attachment: inherit !important; } }
+      background-attachment: inherit !important;
+      height: 250px; } }
   header .wrapper {
     margin-top: 0;
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
@@ -3756,7 +3765,8 @@ header {
     @media (max-width: 768px) {
       header#home {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#about {
     height: 400px;
     background: url("../../uploads/banner_about.jpg") no-repeat 0 0;
@@ -3764,7 +3774,8 @@ header {
     @media (max-width: 768px) {
       header#about {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#resource {
     height: 400px;
     background: url("../../uploads/banner_resource.jpg") no-repeat 0 0;
@@ -3772,7 +3783,8 @@ header {
     @media (max-width: 768px) {
       header#resource {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#construction {
     height: 400px;
     background: url("../../uploads/banner_construction.jpg") no-repeat 0 0;
@@ -3780,15 +3792,17 @@ header {
     @media (max-width: 768px) {
       header#construction {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#contact {
     height: 400px;
-    background: url("../../uploads/banner_contact.jpg") no-repeat 0 0;
+    background: url("../../uploads/bell.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#contact {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#furnishings {
     height: 400px;
     background: url("../../uploads/banner_furnishings.jpg") no-repeat 0 0;
@@ -3796,7 +3810,8 @@ header {
     @media (max-width: 768px) {
       header#furnishings {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#development {
     height: 400px;
     background: url("../../uploads/banner_development.jpg") no-repeat 0 0;
@@ -3804,7 +3819,8 @@ header {
     @media (max-width: 768px) {
       header#development {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#residential {
     height: 400px;
     background: url("../../uploads/PH B Kitchen.jpg") no-repeat 0 0;
@@ -3813,7 +3829,8 @@ header {
     @media (max-width: 768px) {
       header#residential {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#careers {
     height: 400px;
     background: url("../../uploads/banner_careers.jpg") no-repeat 0 0;
@@ -3821,7 +3838,8 @@ header {
     @media (max-width: 768px) {
       header#careers {
         background-size: cover !important;
-        background-attachment: inherit !important; } }
+        background-attachment: inherit !important;
+        height: 250px; } }
   header#blogPost {
     height: 600px; }
   header span {
@@ -4146,7 +4164,14 @@ body {
     border-left: 1px solid #4affff;
     margin-top: -10px;
     padding: 30px;
-    min-height: 630px; }
+    min-height: 1000px;
+    text-align: center; }
+    @media (max-width: 768px) {
+      .mainContent aside.bottomSidebar {
+        background: white;
+        border: none;
+        padding: 20px;
+        min-height: 0; } }
   .mainContent section.contentRight {
     float: left;
     display: block;
@@ -4287,8 +4312,6 @@ img.grayscale:hover {
     font-size: 1.2em;
     color: #777;
     margin: 20px 0 0; }
-  .constructionSection cite {
-    margin: 0 0 20px; }
   .constructionSection .imageWrap {
     margin: 10px 0;
     padding-top: 0 !important; }

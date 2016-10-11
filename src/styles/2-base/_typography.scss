@@ -36,20 +36,19 @@ h4 {font-size: 1.414em;}
 small, .font_small {font-size: 0.707em;}
 
 blockquote{
-  // color:$secondary-color;
   font-weight: 100;
   font-style: italic;
   font-size: 1em;
   position: relative;
   line-height: 1.3em;
-  // &:before{
-  //   content:' " ';
-  //   left: -10px;
-  //   position: absolute;
-  // }
-  // &:after{
-  //   content:' " ';
-  // }
+}
+blockquote {
+  font-size: 1.2em;
+  color: #777;
+  margin: 20px 0 0;
+  background: rgba(242, 242, 242, 0.5);
+  padding: 30px;
+  border-left: 8px solid rgba(198, 156, 108, 1);
 }
 cite{
   color:$secondary-color;

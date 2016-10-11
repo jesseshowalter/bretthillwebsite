@@ -10,6 +10,7 @@ header{
 	@media (max-width: $breakpoint-tablet) {
 		background-size: cover !important;
 		background-attachment: inherit !important;
+		height:250px;
 	}
 
 	.wrapper{
@@ -37,6 +38,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 	&#about{
@@ -46,6 +48,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 	&#resource{
@@ -55,6 +58,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 	&#construction{
@@ -64,16 +68,18 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 
 	&#contact{
 		height:400px;
-		background:url("../../uploads/banner_contact.jpg") no-repeat 0 0;
+		background:url("../../uploads/bell.jpg") no-repeat 0 0;
 		background-size: cover;
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 
@@ -84,6 +90,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 
@@ -94,6 +101,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 
@@ -105,6 +113,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 
@@ -115,6 +124,7 @@ header{
 		@media (max-width: $breakpoint-tablet) {
 			background-size: cover !important;
 			background-attachment: inherit !important;
+			height:250px;
 		}
 	}
 		&#blogPost{
