@@ -3769,7 +3769,7 @@ header {
         height: 250px; } }
   header#about {
     height: 400px;
-    background: url("../../uploads/banner_about.jpg") no-repeat 0 0;
+    background: url("../uploads/banner_about.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#about {
@@ -3778,7 +3778,7 @@ header {
         height: 250px; } }
   header#resource {
     height: 400px;
-    background: url("../../uploads/banner_resource.jpg") no-repeat 0 0;
+    background: url("../uploads/banner_resource.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#resource {
@@ -3787,7 +3787,7 @@ header {
         height: 250px; } }
   header#construction {
     height: 400px;
-    background: url("../../uploads/banner_construction.jpg") no-repeat 0 0;
+    background: url("../uploads/banner_construction.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#construction {
@@ -3796,7 +3796,7 @@ header {
         height: 250px; } }
   header#contact {
     height: 400px;
-    background: url("../../uploads/bell.jpg") no-repeat 0 0;
+    background: url("../uploads/bell.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#contact {
@@ -3805,7 +3805,7 @@ header {
         height: 250px; } }
   header#furnishings {
     height: 400px;
-    background: url("../../uploads/banner_furnishings.jpg") no-repeat 0 0;
+    background: url("../uploads/banner_furnishings.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#furnishings {
@@ -3814,7 +3814,7 @@ header {
         height: 250px; } }
   header#development {
     height: 400px;
-    background: url("../../uploads/banner_development.jpg") no-repeat 0 0;
+    background: url("../uploads/banner_development.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#development {
@@ -3823,7 +3823,7 @@ header {
         height: 250px; } }
   header#residential {
     height: 400px;
-    background: url("../../uploads/PH B Kitchen.jpg") no-repeat 0 0;
+    background: url("../uploads/PH B Kitchen.jpg") no-repeat 0 0;
     background-size: cover;
     background-position: center !important; }
     @media (max-width: 768px) {
@@ -3833,7 +3833,7 @@ header {
         height: 250px; } }
   header#careers {
     height: 400px;
-    background: url("../../uploads/banner_careers.jpg") no-repeat 0 0;
+    background: url("../uploads/banner_careers.jpg") no-repeat 0 0;
     background-size: cover; }
     @media (max-width: 768px) {
       header#careers {
@@ -4197,7 +4197,7 @@ body {
 
 .imageSeperator {
   height: 200px;
-  background: url("../../uploads/banner_careers_2.jpg") no-repeat 0 0;
+  background: url("../uploads/banner_careers_2.jpg") no-repeat 0 0;
   background-size: cover;
   position: relative; }
   @media screen and (max-width: 768px) {
@@ -4499,3 +4499,5 @@ section.results {
     margin-bottom: 0; }
   .sisea-results-list time {
     color: #CCC; }
+
+/*# sourceMappingURL=main.css.map */
