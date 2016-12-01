@@ -2682,7 +2682,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     -o-transition: border-color 0.25s ease;
     transition: border-color 0.25s ease; } }
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
-  border-color: #a90707; }
+  border-color: #c69c6c; }
 
 .lg-outer .lg-thumb-item img {
   width: 100%;
@@ -4284,6 +4284,8 @@ img.grayscale:hover {
       background: #35334b; }
     .blogPost .imageWrap .resource p {
       background: #9bc235; }
+    .blogPost .imageWrap .maintenance p {
+      background: #9b55dc; }
   .blogPost h4 {
     margin-bottom: 0; }
   .blogPost time {
