@@ -57,6 +57,7 @@ input[type="button"], input[type="submit"]  {
 	padding:10px;
 	border: 1px solid darken(rgba(77, 216, 255, 1), 10%);
 	text-transform: uppercase;
+	float: right;
 }
 input[type="button"]:hover , input[type="submit"]:hover {
 	background: darken(rgba(77, 216, 255, 1), 20%);

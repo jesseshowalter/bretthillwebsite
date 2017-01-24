@@ -3760,7 +3760,8 @@ input[type="button"], input[type="submit"] {
   background: #4dd8ff;
   padding: 10px;
   border: 1px solid #1acdff;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  float: right; }
 
 input[type="button"]:hover, input[type="submit"]:hover {
   background: #00b4e6; }
@@ -4542,16 +4543,13 @@ iframe {
   width: 100%;
   padding-bottom: 100px; }
 
-#contactForm input[type="button"] {
+#contactForm input[type="submit"] {
   float: right;
   margin-top: 10px; }
 
 #contactForm p {
   font-size: 10px;
   float: left; }
-
-.form_description {
-  background: red !important; }
 
 .furnishingsSection {
   overflow: auto; }
