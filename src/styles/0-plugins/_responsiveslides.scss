@@ -5,17 +5,43 @@
     position: absolute;
     top:48%;
   }
+  a.next:hover, a.prev:hover{
+    border:none;
+    opacity: 1;
+  }
   a.next{
+    position: absolute;
+    top:52%;
     right:20px;
+    z-index: 10000;
+    color:white;
+    background: url(../images/arrowRight.png);
+    background-size: cover;
+    width: 24px;
+    height: 40px;
+    opacity: 0.8;
     @media (max-width: $breakpoint-mobile) {
       display:none;
     }
   }
   a.prev{
+    position: absolute;
+    top:52%;
     left:20px;
+    z-index: 10000;
+    color:white;
+    background: url(../images/arrowLeft.png);
+    background-size: cover;
+    width: 24px;
+    height: 40px;
+    opacity: 0.8;
     @media (max-width: $breakpoint-mobile) {
       display:none;
     }
+  }
+
+  a:before{
+    background-color: transparent;
   }
 
 }

@@ -2377,16 +2377,39 @@ html {
   .slider_container a.callbacks_nav {
     position: absolute;
     top: 48%; }
+  .slider_container a.next:hover, .slider_container a.prev:hover {
+    border: none;
+    opacity: 1; }
   .slider_container a.next {
-    right: 20px; }
+    position: absolute;
+    top: 52%;
+    right: 20px;
+    z-index: 10000;
+    color: white;
+    background: url(../images/arrowRight.png);
+    background-size: cover;
+    width: 24px;
+    height: 40px;
+    opacity: 0.8; }
     @media (max-width: 400px) {
       .slider_container a.next {
         display: none; } }
   .slider_container a.prev {
-    left: 20px; }
+    position: absolute;
+    top: 52%;
+    left: 20px;
+    z-index: 10000;
+    color: white;
+    background: url(../images/arrowLeft.png);
+    background-size: cover;
+    width: 24px;
+    height: 40px;
+    opacity: 0.8; }
     @media (max-width: 400px) {
       .slider_container a.prev {
         display: none; } }
+  .slider_container a:before {
+    background-color: transparent; }
 
 .callbacks_nav {
   position: absolute;
